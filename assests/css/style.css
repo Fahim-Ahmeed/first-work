@@ -20,10 +20,12 @@ h1{
 }
 .half-width img{
     width:100%;
+    height:100%;
 }
 section{
     height:600px;
     padding-bottom: 150px;
+    
 }
 .link-button{
     text-decoration: none;
@@ -43,4 +45,34 @@ p{
     background-image: url("../images/dream-bg.png");
     background-repeat: no-repeat;
     background-position: right;
+}
+.experience-area{
+    
+    height:500px;
+    margin-top: 50px;
+    background-image: url("../images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-color: white;
+}
+.experience-area div{
+    padding-top:100px;
+    height:50%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+}
+#full-stack{
+    border-left: 10px solid;
+    border-image: linear-gradient(180deg,lightsalmon,tomato);
+    border-image-slice: 1;
+}
+#last-stack{
+    border-left:10px solid;
+    border-image:linear-gradient(180deg,blue,cyan) ;
+    border-image-slice: 1;
+}
+footer{
+    text-align:center;
+    font-size: 15px;
+
 }
